@@ -1,0 +1,8 @@
+%h1 BodyMass
+
+%h3 Bienvenido #{current_user.email}
+
+%p IMC: #{@body_mass.imc}
+%p Category: #{@body_mass.category}
+
+= render 'form'

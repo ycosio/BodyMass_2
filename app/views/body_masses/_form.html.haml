@@ -1,0 +1,9 @@
+= form_for @body_mass do |f|
+  %p
+    = f.label :mass, "(Kg) :"
+    = f.text_field :mass
+  %p
+    = f.label :height, "(m) :"
+    = f.text_field :height
+  %p
+    = f.submit
